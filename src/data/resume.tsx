@@ -110,7 +110,7 @@ export const DATA = {
       href: "https://disporty.com/en",
       badges: [],
       location: "Remote",
-      title: "Fullstack Developer",
+      title: "Frontend Developer",
       logoUrl: "/disporty-logo.webp",
       start: "Jan 2024",
       end: "Oct 2024",
