@@ -15,13 +15,10 @@ export const DATA = {
   location: "Remote, India",
   locationLink: "https://www.google.com/maps/place/India",
   description:
-    "Full-Stack & Solana Developer. Building modern web apps and blockchain solutions.",
+    "Self-taught Full-Stack & Solana Developer. Specializing in Rust, Anchor, React, and building resilient DeFi primitives.",
   summary:
-    "I'm a Full-Stack Developer who started where most do — React, Node.js, shipping web apps for real startups. I built production software across electric vehicles, sports streaming, and tourism. Clean UIs, solid backends, the full loop.",
-    "Then I built a token launchpad on Solana, and the mindset shifted permanently.",
-    "What hooked me wasn't just the tech stack. It was the model: write a great contract, deploy it, and it runs forever. No servers, no AWS bills, no DevOps at 3am. Users own their data — not a company sitting on a private database. That's how software should work.",
-    "Now I go deep on Solana and Rust. I care about compute unit efficiency, PDA security, account validation, and building DeFi primitives that are hard to break. I've worked across the full on-chain stack — from Anchor smart contracts and AMM mechanics to the React and Next.js frontends that make them usable. Rust forces honesty: no hidden costs, no garbage collector surprises, just deterministic and fast.",
-    "I'm currently focused on on-chain engineering — Solana smart contract development, DeFi protocol work, and anything pushing the edges of what's possible on-chain.",
+    "Self-taught dev. Started with React and Node.js — shipped production apps across EVs, sports streaming, and tourism. Built a token launchpad on Solana and never looked back.\n\n" +
+    "Now I go deep on Rust and on-chain engineering — Anchor contracts, AMM mechanics, DeFi primitives, and the React/Next.js frontends that make them usable. Focused on compute efficiency, PDA security, and building things that are hard to break.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "Anchor Framework" },
@@ -69,10 +66,28 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      Cal: {
+        name: "Book a Meeting",
+        url: "https://cal.com/hksoldev/quick-chat?user=hksoldev&overlayCalendar=true",
+        icon: Icons.cal,
+        navbar: true,
+      },
       X: {
         name: "X",
         url: "https://x.com/HKsoldev",
         icon: Icons.x,
+        navbar: true,
+      },
+      Telegram: {
+        name: "Telegram",
+        url: "https://t.me/MrBlackGhost",
+        icon: Icons.telegram,
+        navbar: true,
+      },
+      Discord: {
+        name: "Discord",
+        url: "https://discord.com/users/mrdevghost",
+        icon: Icons.discord,
         navbar: true,
       },
       email: {
