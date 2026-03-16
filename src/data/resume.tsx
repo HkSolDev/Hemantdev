@@ -17,7 +17,11 @@ export const DATA = {
   description:
     "Full-Stack & Solana Developer. Building modern web apps and blockchain solutions.",
   summary:
-    "I'm a Full-Stack Developer specializing in building modern web applications and Solana blockchain solutions. I've worked across the entire stack—from crafting pixel-perfect UIs with React and Next.js to architecting smart contracts in Rust and Anchor. I've shipped production applications for startups in electric vehicles, sports streaming, and tourism, while actively contributing to the Web3 ecosystem. Currently learning and building in the Solana space, focusing on DeFi protocols, AMMs, and distributed systems.",
+    "I'm a Full-Stack Developer who started where most do — React, Node.js, shipping web apps for real startups. I built production software across electric vehicles, sports streaming, and tourism. Clean UIs, solid backends, the full loop.",
+    "Then I built a token launchpad on Solana, and the mindset shifted permanently.",
+    "What hooked me wasn't just the tech stack. It was the model: write a great contract, deploy it, and it runs forever. No servers, no AWS bills, no DevOps at 3am. Users own their data — not a company sitting on a private database. That's how software should work.",
+    "Now I go deep on Solana and Rust. I care about compute unit efficiency, PDA security, account validation, and building DeFi primitives that are hard to break. I've worked across the full on-chain stack — from Anchor smart contracts and AMM mechanics to the React and Next.js frontends that make them usable. Rust forces honesty: no hidden costs, no garbage collector surprises, just deterministic and fast.",
+    "I'm currently focused on on-chain engineering — Solana smart contract development, DeFi protocol work, and anything pushing the edges of what's possible on-chain.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "Anchor Framework" },
