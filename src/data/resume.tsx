@@ -80,7 +80,7 @@ export const DATA = {
       },
       Telegram: {
         name: "Telegram",
-        url: "https://t.me/MrBlackGhost",
+        url: "https://t.me/hksoldev",
         icon: Icons.telegram,
         navbar: true,
       },
