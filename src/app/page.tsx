@@ -9,7 +9,8 @@ import ContactSection from "@/components/section/contact-section";
 import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
-import { ArrowUpRight } from "lucide-react";
+import GitHubSection from "@/components/section/github-section";
+import { ArrowUpRight, FileText, ExternalLink } from "lucide-react";
 import Image from "next/image";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -18,8 +19,8 @@ export default function Page() {
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
       <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
+        <div className="mx-auto w-full max-w-2xl space-y-4">
+          <div className="gap-2 gap-y-4 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
@@ -27,11 +28,16 @@ export default function Page() {
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
               />
-              <BlurFadeText
-                className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
+              {/* "Hire Me" open-to-work badge */}
+              <BlurFade delay={BLUR_FADE_DELAY * 1.5}>
+                <div className="inline-flex items-center gap-2 rounded-full border border-green-300 bg-green-50 dark:border-green-800 dark:bg-green-950/60 px-4 py-1.5 text-sm font-semibold text-green-700 dark:text-green-400 shadow-sm w-fit">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
+                  </span>
+                  Open to Work — Hire Me!
+                </div>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
               <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
@@ -40,6 +46,29 @@ export default function Page() {
               </Avatar>
             </BlurFade>
           </div>
+          {/* Quick links */}
+          <BlurFade delay={BLUR_FADE_DELAY * 2}>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href={(DATA as any).proofOfWork}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-full border border-border bg-background hover:bg-muted transition-colors shadow-sm"
+              >
+                <ExternalLink className="size-3" />
+                Proof of Work
+              </Link>
+              <Link
+                href={(DATA as any).cvUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-full border border-border bg-background hover:bg-muted transition-colors shadow-sm"
+              >
+                <FileText className="size-3" />
+                View CV
+              </Link>
+            </div>
+          </BlurFade>
         </div>
       </section>
       <section id="about">
@@ -53,6 +82,13 @@ export default function Page() {
                 {DATA.summary}
               </Markdown>
             </div>
+          </BlurFade>
+        </div>
+      </section>
+      <section id="github">
+        <div className="flex min-h-0 flex-col gap-y-4">
+          <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+            <GitHubSection />
           </BlurFade>
         </div>
       </section>
