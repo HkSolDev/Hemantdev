@@ -106,12 +106,12 @@ export const DATA = {
       href: "",
       badges: [],
       location: "Remote",
-      title: "Frontend Developer",
+      title: "Fullstack Developer",
       logoUrl: "/auto-connect.jpg",
       start: "Dec 2024",
       end: "Sep 2025",
       description:
-        "Developed the frontend for autoconnect, including secure user authentication and a dedicated page for generating electric vehicle data reports (battery status, health metrics). Integrated real-time vehicle data from external car connect services. Built using Next.js and Shadcn UI.",
+        "Developed a full-stack EV monitoring, including secure user authentication and a dedicated page for generating electric vehicle data reports (battery status, health metrics). Integrated real-time vehicle data from external car connect services. Built using Next.js and Shadcn UI.",
     },
     {
       company: "Calara Barcelona",
