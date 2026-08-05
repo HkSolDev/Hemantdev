@@ -102,30 +102,17 @@ export const DATA = {
   },
   work: [
     {
-      company: "autoconnect",
-      href: "",
-      badges: [],
-      location: "Remote",
-      title: "Fullstack Developer",
-      logoUrl: "/auto-connect.jpg",
-      start: "Dec 2024",
-      end: "Sep 2025",
-      description:
-        "Developed a full-stack EV monitoring, including secure user authentication and a dedicated page for generating electric vehicle data reports (battery status, health metrics). Integrated real-time vehicle data from external car connect services. Built using Next.js and Shadcn UI.",
-    },
-    {
-      company: "Calara Barcelona",
-      href: "https://clarabarcelo.us/",
-      badges: [],
-      location: "Remote",
-      title: "Freelance Developer",
-      logoUrl:
-        "https://d3k81ch9hvuctc.cloudfront.net/company/RvHhne/images/9c15677e-8ea4-41a4-a5f1-37074f60553d.png",
-      start: "Oct 2025",
-      end: "Nov 2025",
-      description:
-        "Developed an Instagram engagement bot using Puppeteer with targeted user actions (liking, commenting, following, DMs). Implemented a comprehensive dashboard for viewing logs, tracking targeted users, monitoring message delivery, and error handling.",
-    },
+  company: "autoconnect",
+  href: "",
+  badges: [],
+  location: "Remote",
+  title: "Fullstack Developer",
+  logoUrl: "/auto-connect.jpg",
+  start: "Dec 2024",
+  end: "Nov 2025",
+  description:
+    "Developed a full-stack EV monitoring platform with secure user authentication and dedicated pages for generating electric vehicle data reports (battery status, health metrics). Integrated real-time vehicle data from external car connect services. Also built an Instagram engagement bot using Puppeteer with targeted user actions (liking, commenting, following, DMs), along with a comprehensive dashboard for viewing logs, tracking targeted users, monitoring message delivery, and error handling. Built using Next.js and Shadcn UI.",
+},
     {
       company: "Disporty LTD",
       href: "https://disporty.com/en",
