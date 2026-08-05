@@ -11,7 +11,7 @@ import { Docker } from "@/components/ui/svgs/docker";
 export const DATA = {
   name: "Hemant Kumar",
   initials: "HK",
-  url: "https://hemant-code1.vercel.app",
+  url: "https://hemantdev.com",
   location: "Remote, India",
   locationLink: "https://www.google.com/maps/place/India",
   description:
@@ -96,7 +96,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:midnightmail@tutamail.com",
+        url: "mailto:hemantkumar4213@gmail.com",
         icon: Icons.email,
         navbar: true,
       },
@@ -135,7 +135,7 @@ export const DATA = {
       title: "Frontend Developer",
       logoUrl:
         "https://dbcpictures.s3.ap-south-1.amazonaws.com/logo+and+graphics/transparent+logo+DBC.webp",
-      start: "Nov 2023",
+      start: "Nov 2022",
       end: "Dec 2023",
       description:
         "Built responsive, high-performance user interfaces using React, Redux Toolkit, Tailwind CSS, and Material-UI. Spearheaded UI enhancements that significantly improved user experience. Engineered pixel-perfect, customizable themes using React hooks, Redux, and styled components.",
