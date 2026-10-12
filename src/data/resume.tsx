@@ -153,6 +153,54 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Novara Origin",
+      href: "https://novaraorigin.com",
+      dates: "2026 — Present",
+      active: true,
+      image: "/novara-origin.jpg",
+      description:
+        "A global esports tournament platform where communities can discover, create, and join grassroots competitions. Supports player, team, organizer, bracket, match, proof-verification, and Discord workflows.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://novaraorigin.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/HkSolDev/ISport",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+    {
+      title: "Aptus",
+      href: "https://github.com/HkSolDev/aptus",
+      dates: "2026 — Present",
+      active: true,
+      image: "/aptus.svg",
+      description:
+        "An eligibility-matching platform for Indian government-job notifications. It extracts structured requirements from official notices, validates them against source evidence, and uses deterministic rules to show applicants the roles they may qualify for.",
+      technologies: ["Next.js", "TypeScript", "Python", "PostgreSQL", "Prisma", "Docker"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/HkSolDev/aptus",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+    {
       title: "SolBet - Prediction Market",
       href: "https://solbet.hemantdev.com/",
       dates: "",
