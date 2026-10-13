@@ -184,14 +184,19 @@ export const DATA = {
     },
     {
       title: "Aptus",
-      href: "https://github.com/HkSolDev/aptus",
+      href: "https://aptus.novaraorigin.com",
       dates: "2026 — Present",
       active: true,
       image: "/aptus.svg",
       description:
-        "An eligibility-matching platform for Indian government-job notifications. It extracts structured requirements from official notices, validates them against source evidence, and uses deterministic rules to show applicants the roles they may qualify for.",
+        "An eligibility-matching platform for job notifications. It turns source documents into structured requirements, validates them against source evidence, and uses deterministic rules to help people find roles they may qualify for.",
       technologies: ["Next.js", "TypeScript", "Python", "PostgreSQL", "Prisma", "Docker"],
       links: [
+        {
+          type: "Website",
+          href: "https://aptus.novaraorigin.com",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/HkSolDev/aptus",
