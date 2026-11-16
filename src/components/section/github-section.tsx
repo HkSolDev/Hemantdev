@@ -158,7 +158,7 @@ export default function GitHubSection() {
       </div>
 
       {/* ── Graph area (ref here for ResizeObserver) ── */}
-      <div ref={graphRef} className="w-full">
+      <div ref={graphRef} className="w-full overflow-x-auto" tabIndex={0} aria-label="GitHub contributions graph, scroll horizontally">
 
         {/* Skeleton while loading */}
         {(loading || fading) && (

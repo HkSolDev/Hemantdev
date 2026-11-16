@@ -17,8 +17,8 @@ export const DATA = {
   description:
     "Hire Me!",
   summary:
-    "Self-taught dev. Started with React and Node.js. Shipped production apps across EVs, sports streaming, and tourism. Built a token launchpad on Solana and never looked back.\n\n" +
-    "Now I go deep on Rust and Solana write Anchor contracts, AMM mechanics, DeFi primitives, and the React/Next.js frontends that make them usable. Completed the fellowship at [Turbin3](https://turbin3.com) and [Rektoff](https://rektoff.xyz). Focused on compute efficiency, PDA security, and building things that are hard to break.",
+    "Self-taught developer building responsive React and Next.js interfaces and Node.js backends. I've shipped applications across EVs, sports, and tourism, and build AI-powered tools that turn documents into structured, useful information.\n\n" +
+    "I also build on Solana with Rust and Anchor, exploring token launchpads, prediction markets, and DeFi mechanics. I completed fellowships at [Turbin3](https://turbin3.com) and [Rektoff](https://rektoff.xyz), with a focus on security and practical products.",
   avatarUrl: "/me.jpg",
   proofOfWork: "https://grave-queen-177.notion.site/My-proof-of-work-32a354a1ec5980e196d4c0bd4a0665b2?source=copy_link",
   cvUrl: "https://docs.google.com/document/d/1o-9-vsEISVBrAAZpu3t_02KI1omlZZH9/edit",
